@@ -68,7 +68,7 @@ I offer professional caregiving and companionship services, delivered with compa
 
 # Let's get started
 
-Private households can hire indepent caregivers in Canada. To connect with me and discuss what I can do for you and your family, you can contact me by:
+Private households can hire independent caregivers in Canada. To connect with me and discuss what I can do for you and your family, you can contact me by:
 - 📞 **Phone**: [236-867-9389](tel:+12368679389)
 - ✉️ **Email**: [kingallet2001@gmail.com](mailto:kingallet2001@gmail.com)
 
