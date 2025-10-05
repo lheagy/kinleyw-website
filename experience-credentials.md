@@ -11,7 +11,7 @@ subtitle: My training and qualifications
 
 ```{image} ./media/Kinley-profile.jpeg
 :alt: Kinley profile
-:width: 90%
+:width: 70%
 ```
 :::
 
