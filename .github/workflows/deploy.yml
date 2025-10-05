@@ -5,8 +5,8 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
-# Your repo is published at https://<user>.github.io/<repo>/
-# so the base path must be "/<repo>"
+# For project sites like https://<user>.github.io/<repo>,
+# set BASE_URL to /<repo>. For user/org sites, leave it empty.
 env:
   BASE_URL: /${{ github.event.repository.name }}
 
@@ -17,7 +17,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
@@ -29,19 +29,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Configure the Pages environment (uploads, permissions, etc.)
-      - uses: actions/configure-pages@v5
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
       - uses: actions/setup-node@v4
         with:
           node-version: 20
 
       - name: Install MyST
-        run: npm i -g mystmd@latest
+        run: npm install -g mystmd@latest
 
-      - name: Build site
-        # --html ensures we emit _build/html; --base sets the project subpath
-        run: myst build --html --base "$BASE_URL"
+      - name: Build HTML Assets
+        run: myst build --html --baseurl "$BASE_URL"
 
       - name: Add .nojekyll
         run: touch _build/html/.nojekyll
