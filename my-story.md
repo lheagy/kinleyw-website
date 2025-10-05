@@ -81,8 +81,8 @@ father. I feel so lucky to have him by my side.
 :::{grid-item}
 :class: media-img
 
-```{image} ./media/image7.JPG
-:alt: Kinley holding two dogs
+```{image} ./media/Kinley-and-Oldenburgs.JPG
+:alt: Kinley with Doug and Marion Oldenburg
 :width: 100%
 ```
 :::
@@ -116,6 +116,20 @@ lessons:
 
 -   **Family is not only by blood.** The love and support I received from people like Tina, Tiara, and her parents made me realize that family is built from trust, care, and shared humanity.
 
+::::{grid}
+:class: media-grid
+
+:::{grid-item}
+:class: media-img
+
+```{image} ./media/image7.JPG
+:alt: Kinley holding a dog
+:width: 100%
+```
+:::
+
+:::{grid-item}
+:class: media-body
 I carry these lessons with me every day. My dream is to stand on my own
 feet, become independent, and build a stable future. As a foreigner in
 Canada, it is expensive to attend school and pursue higher education.
@@ -123,6 +137,8 @@ I'm deeply grateful to Tiara for organizing a GoFundMe project to cover
 my tuition fees and to everyone who contributed. Their generosity --
 along with the unwavering support of my husband -- made my dream
 possible.
+:::
+::::
 
 Now, I want to carry that kindness forward
 through my work as a caregiver, offering compassion, dignity, and
