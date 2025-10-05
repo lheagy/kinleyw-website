@@ -42,7 +42,7 @@ I am a hardworking, skilled, and compassionate caregiver trained at [Sprott Shaw
 For more details, please see the page on my [Experience & Credentials](experience-credentials)
 
 # Services
-I offers professional caregiving and companionship services, delivered with compassion and respect to support the comfort and well-being of those in my care.
+I offer professional caregiving and companionship services, delivered with compassion and respect to support the comfort and well-being of those in my care.
 
 
 ```{list-table}
