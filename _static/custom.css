@@ -1,0 +1,20 @@
+.contact-box {
+    float: right;
+    border: 1px solid #ccc;
+    padding: 0.75em 1em;
+    margin: 0 0 1em 1em;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.contact-box a {
+    text-decoration: none;
+    color: #0072ce;
+    /* adjust to match your site theme */
+}
+
+.contact-box a:hover {
+    text-decoration: underline;
+}
