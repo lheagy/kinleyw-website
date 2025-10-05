@@ -234,22 +234,4 @@ h4+.checklist {
     transform: translateY(.08em);
 }
 
-/* Mobile: let it breathe full width */
-@media (max-width: 700px) {
-    .contact-card {
-        width: 100%;
-        margin: 0.5rem 0;
-    }
-}
 
-/* Hide the theme toggle in the header, regardless of label text */
-button[title*="theme" i],
-button[aria-label*="theme" i],
-.theme-toggle {
-    display: none !important;
-}
-
-/* Hide the built-in footer attribution */
-.sidebar .sidebar-footer {
-    display: none !important;
-}

@@ -158,7 +158,7 @@ breakdown based on a typical full-time schedule.
 | **Total employer cost**  | **≈ $4,470 / month** |
 ::::
 
-This represents about 12-13% above gross wages. The employee's share of
+The employee's share of
 CPP, EI, and income tax will be deducted from wages and remitted by the
 employer but does not add to employer out-of-pocket costs.
 
