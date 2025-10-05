@@ -17,9 +17,9 @@ project:
     - file: let-me-care-for-you.md
     - file: contact.md
     # - file:
-  exports:
-    - format: pdf
-      artcle: README.md
+  # exports:
+  #   - format: pdf
+  #     artcle: README.md
   # banner: media/banner.png
 
 site:
@@ -31,10 +31,8 @@ site:
     outline_maxdepth: 1
     style: ./_static/custom.css  # load your CSS (MyST site option)
   actions:
-    - title: Email me
+    - title: ✉️ Email Kinley
       url: mailto:kingallet2001@gmail.com
-    - title: Call me
-      url: tel:+12368679389
 
 myst:
   enable_extensions:
