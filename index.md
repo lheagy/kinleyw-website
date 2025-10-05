@@ -84,6 +84,8 @@ See more details on how [I can work for you or your family](./let-me-care-for-yo
 
 # Contact
 
+To talk about your family’s needs, reach me at:
+
 📞 **Phone**:  [236-867-9389](tel:+12368679389)
 
 ✉️ **Email**:  [kingallet2001@gmail.com](mailto:kingallet2001@gmail.com)

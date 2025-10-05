@@ -30,10 +30,10 @@ To connect with me and discuss what I can do for you and your family, you can co
 :::{div}
 :class: tight-section
 :class: checklist
-- **Certified Health Care Assistant (BC)**: Trained and certified in British Columbia with hands-on experience in senior care homes.
+- **Certified Health Care Assistant (BC)**: Trained in British Columbia with hands-on experience in senior care homes.
 - **Personal Care**: Bathing, dressing, grooming, and denture care with dignity and respect.
 - **Daily Living Support**: Meal preparation, feeding, light housekeeping, and shopping.
-- **Companionship & Emotional Support**: Friendly conversation, activities, and emotional reassurance.
+- **Companionship & Emotional Support**: Friendly conversation, activities, and emotional support.
 - **Mobility & Exercise Assistance**: Helping with walking, stretching, and safe movement.
 - **Specialized Care for Dementia & Alzheimer’s**: Memory support, patience, and gentle guidance through daily routines.
 - **Medication Assistance & Administration**: Safe reminders and support in following prescribed treatment.
