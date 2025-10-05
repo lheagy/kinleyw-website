@@ -1,20 +1,243 @@
-.contact-box {
-    float: right;
-    border: 1px solid #ccc;
-    padding: 0.75em 1em;
-    margin: 0 0 1em 1em;
+/* 4/12 + 8/12 media layout that works inside MyST {grid} */
+.media-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+    /* 4/12 + 8/12 */
+    gap: 1rem;
+    align-items: start;
+}
+
+/* Swap sides when you add the .right modifier to the container */
+.media-grid.right {
+    grid-template-columns: minmax(0, 8fr) minmax(0, 4fr);
+}
+
+/* Place items explicitly so order is predictable */
+.media-img {
+    grid-column: 1;
+}
+
+.media-body {
+    grid-column: 2;
+}
+
+.media-grid.right .media-img {
+    grid-column: 2;
+}
+
+.media-grid.right .media-body {
+    grid-column: 1;
+}
+
+/* Make images behave nicely */
+.media-img img {
+    width: 100%;
+    height: auto;
+    display: block;
     border-radius: 8px;
-    background-color: #f9f9f9;
+    /* optional */
+}
+
+/* Mobile: stack into a single column */
+@media (max-width: 700px) {
+
+    .media-grid,
+    .media-grid.right {
+        grid-template-columns: 1fr;
+    }
+
+    .media-img,
+    .media-body {
+        grid-column: 1 !important;
+    }
+}
+
+/* Kill the top margin on the first element in the text column */
+.media-body> :first-child {
+    margin-top: 0 !important;
+}
+
+/* Extra safety for headings specifically */
+.media-body h1:first-child,
+.media-body h2:first-child,
+.media-body h3:first-child {
+    margin-block-start: 0 !important;
+}
+
+.media-grid.center {
+    align-items: center;
+}
+
+/* Keep only the header row bold; make body text normal */
+.resume-table tbody,
+.resume-table tbody td,
+.resume-table tbody ul,
+.resume-table tbody li,
+.resume-table tbody p {
+    font-weight: 400 !important;
+    /* normal weight for body cells */
+}
+
+/* Your checkmark list styling (unchanged except for clarity) */
+.resume-table ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.resume-table li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin: 0.25rem 0;
+}
+
+/* Green checks in the resume table (non-emoji font) */
+.resume-table tbody li::before {
+    content: "\2713";
+    /* ✓ instead of ✔ */
+    color: #2e7d32 !important;
+    /* your green */
+    font-weight: 700;
+    /* make it bolder if you like */
     font-size: 0.9em;
-    line-height: 1.4;
+    line-height: 1;
+    flex: 0 0 auto;
+    font-family: "Noto Sans Symbols 2", "Segoe UI Symbol", "DejaVu Sans", sans-serif;
+    transform: translateY(0.05em);
 }
 
-.contact-box a {
+.resume-table li>p {
+    margin: 0;
+}
+/* Pull the list up tight under the heading */
+h1+.checklist,
+h2+.checklist,
+h3+.checklist,
+h4+.checklist {
+    margin-top: .25rem !important;
+    /* was ~1rem+ */
+}
+
+/* Reset the UL's own top margin & bullets */
+.checklist ul {
+    margin: 0 !important;
+    padding-left: 0;
+    list-style: none;
+}
+
+/* Your existing checklist item styles (keep) */
+.checklist li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    margin: 0.45rem 0;
+}
+
+.checklist li::before {
+    content: "\2713";
+    color: #2e7d32;
+    font: 700 1rem/1 "Noto Sans Symbols 2", "Segoe UI Symbol", "DejaVu Sans", sans-serif;
+    width: 1.2em;
+    flex: 0 0 1.2em;
+    text-align: center;
+    transform: translateY(0.06em);
+}
+
+.checklist li>p {
+    margin: 0;
+}
+
+.tight-section > h1,
+.tight-section > h2,
+.tight-section > h3,
+.tight-section > h4 { margin-bottom: .25rem !important; }
+
+.tight-section .checklist { margin-top: 0 !important; }
+.tight-section .checklist ul { margin-top: 0 !important; }  /* kill UL's top margin */
+
+.pay-card {
+    max-width: 560px;
+    background: #f8f9fa;
+    border: 1px solid #e7e7e7;
+    border-radius: 12px;
+    padding: .75rem 1rem;
+}
+
+.pay-card table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pay-card th,
+.pay-card td {
+    padding: .45rem .5rem;
+}
+
+.pay-card td:last-child {
+    text-align: right;
+    white-space: nowrap;
+}
+
+.pay-card tr:last-child td {
+    border-top: 1px solid #ddd;
+    padding-top: .65rem;
+}
+/* Contact card layout */
+.contact-card {
+    width: 80%;
+    margin: 1rem auto;
+    /* centered */
+    background: #f8f9fa;
+    border: 1px solid #e7e7e7;
+    border-radius: 12px;
+    padding: 0.75rem 1.25rem;
+    /* smaller top padding */
+    display: flow-root;
+    /* prevents heading margin-collapse */
+}
+
+/* Remove extra top space from the first element (e.g., the name) */
+.contact-card>*:first-child {
+    margin-top: 0 !important;
+}
+
+/* Tidy headline & link spacing */
+.contact-card h3 {
+    margin: 0 0 .25rem;
+}
+
+.contact-card a {
     text-decoration: none;
-    color: #0072ce;
-    /* adjust to match your site theme */
+    border-bottom: 1px dotted rgba(0, 0, 0, .35);
 }
 
-.contact-box a:hover {
-    text-decoration: underline;
+.contact-card a:hover {
+    border-bottom-color: rgba(0, 0, 0, .6);
+}
+
+/* List reset + icon alignment (keep if you already have these) */
+.contact-card ul {
+    margin: .5rem 0 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.contact-card li {
+    margin: .35rem 0;
+}
+
+.contact-card .i {
+    display: inline-block;
+    width: 1.2em;
+    text-align: center;
+    transform: translateY(.08em);
+}
+
+/* Mobile: let it breathe full width */
+@media (max-width: 700px) {
+    .contact-card {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
 }
