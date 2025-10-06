@@ -3,6 +3,8 @@ title: Kinley Wangmo
 subtitle: Compassionate Certified Caregiver
 ---
 
+Vancouver • Burnaby • Richmond • Surrey
+
 <!-- [**About me**](#Kinley-Wangmo) • [**Services**](#Services) • [**Hiring me**](#Let's-get-started) • [**Contact**](#Contact) -->
 
 ::::{grid}
@@ -20,6 +22,8 @@ subtitle: Compassionate Certified Caregiver
 :::{grid-item}
 :class: media-body
 # Kinley Wangmo
+
+
 I am a hardworking, skilled, and compassionate caregiver trained at [Sprott Shaw College](https://sprottshaw.com/nursing-healthcare/health-care-assistant-program/) in Vancouver, British Columbia with hands-on experience in local care homes. As the eldest child raised by a single mother, caregiving is second nature to me. Canada has given me a home; now I hope to give back by caring for your family.
 :::
 
