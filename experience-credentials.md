@@ -10,8 +10,8 @@ I completed the [Health Care Assistant Program](https://sprottshaw.com/nursing-h
 # Certifications
 
 -   Registered Health Care Assistant, BC Care Aide & Community Health Worker Registry
--   First Aid & CPR-C with AED
--   Food Safe Level 1
+-   Standard First Aid with CPR-C and AED
+-   FoodSafe Level 1
 -   Workplace Hazardous Materials Information System (WHMIS)
 -   Crisis Prevention Intervention (CPI)
 -   Medication Administration Assistance
@@ -22,10 +22,10 @@ I completed the [Health Care Assistant Program](https://sprottshaw.com/nursing-h
 
 # Clinical Experience
 
--   **[Inglewood Care Centre](https://www.vch.ca/en/location/inglewood-care-centre)**: Multi-level and complex care (personal
+-   **[Inglewood Care Centre](https://www.vch.ca/en/location/inglewood-care-centre)** (April 2025 – May 2025): Multi-level and complex care (personal
     care, lifts, feeding, emotional support)
 
--   **[Weinberg Assisted Living](https://www.vch.ca/en/location-service/assisted-living-weinberg-residence)**: Assisted living and home support (ADLs,
+-   **[Weinberg Assisted Living](https://www.vch.ca/en/location-service/assisted-living-weinberg-residence)** (May 2025 – June 2025): Assisted living and home support (ADLs,
     companionship, meal service, respecting privacy and dignity)
 
 # Work Experience
