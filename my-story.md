@@ -141,10 +141,9 @@ possible.
 ::::
 
 Now, I want to carry that kindness forward
-through my work as a caregiver, offering compassion, dignity, and
-respect to Canadian families. If you provide me with an LMIA and hire me
-to care for your loved one, I will ensure they receive the highest
-quality care. I am hardworking, dependable, and maintain a positive
+through my work as a Health Care Assistant, offering compassion, dignity,
+and respect to the people in my care and their families. I will ensure
+every person I care for receives the highest quality care. I am hardworking, dependable, and maintain a positive
 attitude. Caring for the elderly reminds me of the love I shared with my
 mother and grandparents, and every smile I bring to someone's face feels
 like a piece of the home and family I missed as a child.

@@ -1,5 +1,6 @@
 ---
 title: Contact
+subtitle: Let's Connect
 ---
 
 ::::{grid}
@@ -16,8 +17,15 @@ title: Contact
 
 :::{grid-item}
 :class: media-body
-To connect with me and discuss what I can do for you and your family, you can contact me by:
-- 📞 **Phone**: [236-867-9389](tel:+12368679389)
-- ✉️ **Email**: [kingallet2001@gmail.com](mailto:kingallet2001@gmail.com)
+I welcome conversations with health care recruiters, hiring managers and care teams anywhere in British Columbia.
+
+**Kinley Wangmo, Health Care Assistant**\
+Vancouver, BC · Willing to relocate within BC
+
+**Phone:** [236-867-9389](tel:+12368679389)\
+**Email:** [kingallet2001@gmail.com](mailto:kingallet2001@gmail.com)\
+**Resume:** [Kinley_Wangmo_Resume.pdf](https://kinleyw.com/Kinley_Wangmo_Resume.pdf)
+
+References available on request.
 :::
 ::::

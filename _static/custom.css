@@ -1,3 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap");
+
+/* Site accent colour (matches the KW logo) */
+:root {
+    --kw-accent: #2B7A78;
+}
+
+/* Lighter teal so links stay readable in the theme's dark mode */
+html.dark {
+    --kw-accent: #6CC3BE;
+}
+
+/* Headings in Nunito, kept in the theme's near-black */
+h1, h2, h3, h4 {
+    font-family: "Nunito", ui-sans-serif, system-ui, sans-serif !important;
+    font-weight: 700 !important;
+}
+
+/* Teal links in page content */
+article a {
+    color: var(--kw-accent) !important;
+    text-decoration-color: var(--kw-accent) !important;
+}
+
+article a:hover {
+    text-decoration-thickness: 2px;
+}
+
 /* 4/12 + 8/12 media layout that works inside MyST {grid} */
 .media-grid {
     display: grid;
@@ -34,7 +62,7 @@
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 8px;
+    border-radius: 14px;
     /* optional */
 }
 
@@ -96,7 +124,7 @@
 .resume-table tbody li::before {
     content: "\2713";
     /* ✓ instead of ✔ */
-    color: #2e7d32 !important;
+    color: var(--kw-accent) !important;
     /* your green */
     font-weight: 700;
     /* make it bolder if you like */
@@ -136,7 +164,7 @@ h4+.checklist {
 
 .checklist li::before {
     content: "\2713";
-    color: #2e7d32;
+    color: var(--kw-accent);
     font: 700 1rem/1 "Noto Sans Symbols 2", "Segoe UI Symbol", "DejaVu Sans", sans-serif;
     width: 1.2em;
     flex: 0 0 1.2em;
@@ -235,3 +263,61 @@ h4+.checklist {
 }
 
 
+
+/* Hide the theme's "Downloads" menu (it only offers the page's .md source) */
+#skip-to-frontmatter div:has(> button[id^="headlessui-menu-button"]) {
+    display: none !important;
+}
+
+/* Phones: smaller photo, and stack the "At a glance" columns */
+@media (max-width: 700px) {
+    .media-img img {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+
+    .resume-table,
+    .resume-table thead,
+    .resume-table tbody,
+    .resume-table tr,
+    .resume-table th,
+    .resume-table td {
+        display: block;
+        width: 100% !important;
+    }
+
+    .resume-table thead,
+    .resume-table th {
+        display: none !important;
+    }
+
+    .resume-table tbody td:nth-child(1)::before {
+        content: "Registration & certifications";
+    }
+
+    .resume-table tbody td:nth-child(2)::before {
+        content: "Experience";
+    }
+
+    .resume-table tbody td::before {
+        display: block;
+        font-weight: 700;
+        margin: 0.75rem 0 0.25rem;
+    }
+}
+
+/* Slightly tighter line spacing for body text and lists */
+article p,
+article li {
+    line-height: 1.6 !important;
+}
+
+/* Smaller subtitle under the page title */
+#skip-to-frontmatter p.lead {
+    font-size: 18px !important;
+}
+
+/* Link hover previews: show the page title only, not the page's photo */
+.hover-card-content img {
+    display: none !important;
+}
