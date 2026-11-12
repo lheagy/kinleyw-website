@@ -24,7 +24,7 @@ I provide safe, person-centred care that protects each person's dignity, indepen
 **Location:** Vancouver, BC · Willing to relocate anywhere in BC\
 **Phone:** [236-867-9389](tel:+12368679389)\
 **Email:** [kingallet2001@gmail.com](mailto:kingallet2001@gmail.com)\
-**Resume:** [Kinley_Wangmo_Resume.pdf](./media/Kinley_Wangmo_Resume.pdf)
+**Resume:** [Kinley_Wangmo_Resume.pdf](https://kinleyw.com/Kinley_Wangmo_Resume.pdf)
 :::
 
 ::::
@@ -64,4 +64,4 @@ For more details, please see my [Experience & Credentials](experience-credential
 
 My current work permit is tied to a single employer, and an application for an open work permit is in progress. I am also very interested in a permanent, full-time position with an employer able to support a BC Provincial Nominee Program (Health Authority) application. I'm glad to discuss my situation openly with any recruiter.
 
-[**Resume**](./media/Kinley_Wangmo_Resume.pdf) · [**Contact me**](contact)
+[**Resume**](https://kinleyw.com/Kinley_Wangmo_Resume.pdf) · [**Contact me**](contact)

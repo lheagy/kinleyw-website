@@ -39,6 +39,8 @@ jobs:
         run: npm install -g mystmd
       - name: Build HTML Assets
         run: myst build --html
+      - name: Publish resume at a clean URL (kinleyw.com/Kinley_Wangmo_Resume.pdf)
+        run: cp media/Kinley_Wangmo_Resume.pdf _build/html/Kinley_Wangmo_Resume.pdf
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
