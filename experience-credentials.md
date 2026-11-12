@@ -3,28 +3,11 @@ title: Experience & Credentials
 subtitle: My training and qualifications
 ---
 
-::::{grid}
-:class: media-grid center
-
-:::{grid-item}
-:class: media-img
-
-```{image} ./media/Kinley-profile.jpeg
-:alt: Kinley profile
-:width: 70%
-```
-:::
-
-:::{grid-item}
-:class: media-body
-I completed the [Health Care Assistant Program](https://sprottshaw.com/nursing-healthcare/health-care-assistant-program/) at [Sprott Shaw College](https://sprottshaw.com/),
-Vancouver, where I trained in both classroom and clinical settings.
-:::
-::::
+I completed the [Health Care Assistant Program](https://sprottshaw.com/nursing-healthcare/health-care-assistant-program/) at [Sprott Shaw College](https://sprottshaw.com/), Vancouver, where I trained in both classroom and clinical settings.
 
 
 
-# Certifications:
+# Certifications
 
 -   Registered Health Care Assistant, BC Care Aide & Community Health Worker Registry
 -   First Aid & CPR-C with AED
@@ -37,7 +20,7 @@ Vancouver, where I trained in both classroom and clinical settings.
 -   SPECO
 -   Respirator Fit Test
 
-# Clinical Experience:
+# Clinical Experience
 
 -   **[Inglewood Care Centre](https://www.vch.ca/en/location/inglewood-care-centre)**: Multi-level and complex care (personal
     care, lifts, feeding, emotional support)
@@ -45,7 +28,7 @@ Vancouver, where I trained in both classroom and clinical settings.
 -   **[Weinberg Assisted Living](https://www.vch.ca/en/location-service/assisted-living-weinberg-residence)**: Assisted living and home support (ADLs,
     companionship, meal service, respecting privacy and dignity)
 
-# Work Experience:
+# Work Experience
 
 -   **Home Support Worker**, private home, Metro Vancouver (August 2026 – October 2026)
     -   Personal care including hygiene, showering, grooming, and nail and foot care
@@ -70,7 +53,7 @@ Vancouver, where I trained in both classroom and clinical settings.
     reminders, personal care, and companionship, developing
     multitasking, empathy, and communication skills.
 
-# Languages:
+# Languages
 
 -   **English**: read, write and speak
 -   **Dzongkha** (Bhutan's national language): read, write and speak

@@ -3,8 +3,6 @@ title: Kinley Wangmo
 subtitle: Health Care Assistant · BC Care Aide & Community Health Worker Registry
 ---
 
-Based in Vancouver · Willing to relocate anywhere in British Columbia
-
 ::::{grid}
 :class: media-grid
 
@@ -23,7 +21,10 @@ I am a Health Care Assistant trained at [Sprott Shaw College](https://sprottshaw
 
 I provide safe, person-centred care that protects each person's dignity, independence and comfort, and I work closely with nurses, families and the wider care team.
 
-**Phone:** [236-867-9389](tel:+12368679389) · **Email:** [kingallet2001@gmail.com](mailto:kingallet2001@gmail.com) · [**Resume**](./media/Kinley_Wangmo_Resume.pdf)
+**Location:** Vancouver, BC · Willing to relocate anywhere in BC\
+**Phone:** [236-867-9389](tel:+12368679389)\
+**Email:** [kingallet2001@gmail.com](mailto:kingallet2001@gmail.com)\
+**Resume:** [Kinley_Wangmo_Resume.pdf](./media/Kinley_Wangmo_Resume.pdf)
 :::
 
 ::::
