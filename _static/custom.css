@@ -235,3 +235,45 @@ h4+.checklist {
 }
 
 
+
+/* Hide the theme's "Downloads" menu (it only offers the page's .md source) */
+#skip-to-frontmatter div:has(> button[id^="headlessui-menu-button"]) {
+    display: none !important;
+}
+
+/* Phones: smaller photo, and stack the "At a glance" columns */
+@media (max-width: 700px) {
+    .media-img img {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+
+    .resume-table,
+    .resume-table thead,
+    .resume-table tbody,
+    .resume-table tr,
+    .resume-table th,
+    .resume-table td {
+        display: block;
+        width: 100% !important;
+    }
+
+    .resume-table thead,
+    .resume-table th {
+        display: none !important;
+    }
+
+    .resume-table tbody td:nth-child(1)::before {
+        content: "Registration & certifications";
+    }
+
+    .resume-table tbody td:nth-child(2)::before {
+        content: "Experience";
+    }
+
+    .resume-table tbody td::before {
+        display: block;
+        font-weight: 700;
+        margin: 0.75rem 0 0.25rem;
+    }
+}
