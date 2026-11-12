@@ -321,3 +321,8 @@ article li {
 .hover-card-content img {
     display: none !important;
 }
+
+/* Newer MyST themes add an "external link" icon after every link; keep links clean */
+article a .link-icon {
+    display: none !important;
+}
